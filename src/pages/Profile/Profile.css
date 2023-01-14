@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.profile-detail {
+  max-width: 550px;
+}
+
+.img-profile-page {
+  height: 145px;
+  width: 145px;
+  border-radius: 50%;
+  border: 2px solid #509E2F;
+  object-fit: cover;
+}

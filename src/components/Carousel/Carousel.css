@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lucida Console", "Courier New", monospace !important;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+}
+
+/* Slider */
+.slide-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/local-food-singapore-dishes-on-a-table.webp");
+}
+
+.slide-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../assets/cover.jpg");
+}
+
+#heroSlider h6::after,
+#heroSlider h6::before {
+  content: " ";
+  width: 120px;
+  height: 10px;
+  background-color: #060606;
+  display: inline-block;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+

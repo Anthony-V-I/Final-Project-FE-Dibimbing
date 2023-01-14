@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.p-home {
+  padding: 100px;
+}
+
+.bg-feature {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../../assets/features.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.feature-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  font-size: 35px;
+  color: #fff;
+  background-color: #607457;
+  display: inline-grid;
+  align-content: center;
+  text-align: center;
+}
+

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.background-sign-up {
+  background-image: url("../../assets/login.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+
+.sign-up-card {
+  width: 780px;
+}
+
+@media (max-width: 576px) {
+  .label-register{
+    font-size: 12px;
+  }
+
+  .fs-12px {
+    font-size: 12px;
+    height: 30px;
+    
+  }
+}
+

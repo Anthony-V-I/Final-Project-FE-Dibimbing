@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.img-card-profile {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #509E2F;
+}
+
+.title {
+  color: #509E2F;
+}
+
+.font-12px {
+  font-size: 14px;
+}

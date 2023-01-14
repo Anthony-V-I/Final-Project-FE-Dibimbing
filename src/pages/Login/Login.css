@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Spline Sans', sans-serif;
+}
+
+.background {
+  background-image: url("../../assets/login.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 550px;
+}
+
+.sign-card {
+  width: 420px;
+}
