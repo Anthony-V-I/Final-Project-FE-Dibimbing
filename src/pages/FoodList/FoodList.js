@@ -8,6 +8,7 @@ import "tippy.js/dist/tippy.css";
 import "../FoodList/FoodList.css";
 import ImageForm from "../../components/ImageForm/ImageForm";
 
+
 const FoodList = () => {
   const [food, setFood] = useState();
   const [uploadImage, setUploadImage] = useState("");
